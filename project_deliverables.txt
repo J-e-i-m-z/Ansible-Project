@@ -1,0 +1,6 @@
+1. PROJECT SET UP - DONE
+- Vagrantfile for environment set up - DONE 
+- Github repo with project's folder structure - DONE 
+
+2. ANSIBLE.CFG FILE
+- 'Simple' configuration file to get started - DONE
