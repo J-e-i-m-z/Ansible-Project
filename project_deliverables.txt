@@ -7,4 +7,5 @@
 
 3. KEY PAIR SET UP FOR REMOTE SSH FROM CONTROL NODE
 - Generate private and public keys for the hosts
+- Copy public key to managed hosts
 - Ping hosts from control node 
