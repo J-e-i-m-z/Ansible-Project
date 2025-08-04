@@ -10,7 +10,17 @@
 - Copy public key to managed hosts - DONE 
 - Ping hosts from control node - DONE 
 
-4. INSTALL WEB SERVER PACKAGES
-- 
+4. INSTALL WEB SERVER PACKAGES - DONE 
+- Common roles - DONE 
+  * Set up some common variables for all servers - DONE
+  * Set up 3 tasks for all servers - DONE 
+        - Update apt cache task - DONE
+        - Install Base Packages task - DONE 
+        -  Set timezone task - DONE 
 
+  * Set up some variables for web servers - DONE 
+  * Set up 1 task for web server - DONE
+        - Install web packages on debian/ubuntu - DONE
+
+- Playbook for the initial tasks - DONE 
  
