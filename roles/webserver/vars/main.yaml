@@ -1,0 +1,11 @@
+---
+# Web server specific variables
+
+web_packages:
+  - nginx
+  - php-fpm
+  - python3-pip
+
+web_app_port: 8080
+web_app_name: "My Web Application"
+
