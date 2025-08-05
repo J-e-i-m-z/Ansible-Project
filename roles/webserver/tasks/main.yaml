@@ -7,3 +7,6 @@
 
     #when: ansible_os_family == "Debian"
 
+- name: Include Docker installation tasks
+  ansible.builtin.include_tasks: install_docker.yaml
+  when: inventory_hostname == "web-server-2"

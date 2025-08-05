@@ -28,6 +28,6 @@ GOAL
 
 4. TEST WITH ANSIBLE
 - Ping hosts
-- COMMAND ( ansible all -i inventory.ini -m ping )
+- COMMAND ( ansible all -i inventory -m ping )
 
 

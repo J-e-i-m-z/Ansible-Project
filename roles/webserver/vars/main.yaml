@@ -9,3 +9,6 @@ web_packages:
 web_app_port: 8080
 web_app_name: "My Web Application"
 
+# DOCKER VARIABLES
+
+docker_user: "{{ ansible_user }}"

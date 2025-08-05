@@ -1,3 +1,5 @@
+PHASE 1
+
 1. PROJECT SET UP - DONE
 - Vagrantfile for environment set up - DONE 
 - Github repo with project's folder structure - DONE 
@@ -23,4 +25,16 @@
         - Install web packages on debian/ubuntu - DONE
 
 - Playbook for the initial tasks - DONE 
- 
+
+
+PHASE 2
+
+1. Install Docker on web-server-2
+   - Define variables in webserver role/webserver/vars
+   - Install_docker task in webserver role/tasks/install_docker
+   - Reference install docker task in main.yaml task 
+   - Add task to playbook
+   - Run playbook ( ansible playbooks playbook/site.yaml 
+
+   PENDING
+   - Install docker-compose
